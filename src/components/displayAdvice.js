@@ -1,4 +1,5 @@
-const DisplayAdvice = () => {
+const DisplayAdvice = (props) => {
+    console.log(props)
     return (
         <div>
 

@@ -23,7 +23,13 @@ const Advice = () => {
     return (
         <div>
             <p>{visible && (<p>"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>)}</p>
-            <DisplayAdvice data={advice.data} />
+            {
+                advice.data != undefined ?
+                    <div>
+                        <DisplayAdvice data={advice.data} />
+                    </div>
+                    :null
+            }
             <button type="submit" onClick={() => {adviceData(); removeElement()}}>GENERATE</button>
         </div>
     )

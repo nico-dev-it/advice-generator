@@ -16,8 +16,8 @@ const Advice = () => {
     }
     return (
         <div>
-            <button type="submit" onClick={event => adviceData(event)}>GENERATE</button>
             <DisplayAdvice data={advice.data} />
+            <button type="submit" onClick={event => adviceData(event)}>GENERATE</button>
         </div>
     )
 }

@@ -14,7 +14,11 @@ const StyledCard = styled.div`
     border-radius: 40px;
 `
 
-const InitialQuote = styled.h1`
+const AdviceId = styled.div`
+    color: #52FFA8FF;
+`
+
+const AdviceString = styled.div`
     color: #CEE3E9FF;
 `
 
@@ -40,10 +44,10 @@ const Advice = () => {
     return (
         <StyledCard>
             <div>
-                <InitialQuote>
                     <div>{visible && (<div>
-                        <h3>advice #1</h3>
-                        <h1>"It is easy to sit up and take notice, what's difficult is getting up and taking action."</h1>
+                        <AdviceId>advice #1</AdviceId>
+                        <AdviceString>
+                        <p>"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p></AdviceString>
                         <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
                             <g fill="none" fill-rule="evenodd">
                                 <path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/>
@@ -54,7 +58,6 @@ const Advice = () => {
                             </g>
                         </svg>
                     </div>)}</div>
-                </InitialQuote>
                 {
                     advice.data != undefined ?
                         <div>

@@ -1,6 +1,19 @@
 import {useState} from "react";
 import DisplayAdvice from "./displayAdvice";
 
+import styled from "styled-components";
+
+const StyledCard = styled.div`
+    width: 500px;
+    height: 300px;
+    background-color: #323A49FF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -230px;
+    border-radius: 40px;
+`
+
 const Advice = () => {
     const [advice, setAdvice] = useState([])
     const [visible, setVisible] = useState(true)
@@ -21,12 +34,13 @@ const Advice = () => {
     };
 
     return (
+        <StyledCard>
         <div>
-            <p>{visible && (<div>
+            <div>{visible && (<div>
                 <p>advice #1</p>
                 <p>"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
                 <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
-            </div>)}</p>
+            </div>)}</div>
             {
                 advice.data != undefined ?
                     <div>
@@ -43,6 +57,7 @@ const Advice = () => {
                     fill="#202733"/>
             </svg>
         </div>
+        </StyledCard>
     )
 }
 

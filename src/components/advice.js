@@ -12,15 +12,7 @@ const StyledCard = styled.div`
     left: 50%;
     margin: -200px 0 0 -230px;
     border-radius: 40px;
-`
-
-const AdviceId = styled.div`
-    color: #52FFA8FF;
-`
-
-const AdviceString = styled.div`
-    color: #CEE3E9FF;
-`
+    `
 
 const Advice = () => {
     const [advice, setAdvice] = useState([])

@@ -24,7 +24,7 @@ const AdviceIdBlock = styled.div`
     letter-spacing: 2px;
     position: absolute;
     top: 30px;
-    margin-left: 42%;
+    width: 550px;
 `
 
 const AdviceSlip = styled.div`
@@ -75,7 +75,7 @@ const Advice = () => {
                     </div>
                     : <div>
                         <div>
-                            <AdviceIdBlock>advice #1</AdviceIdBlock>
+                            <AdviceIdBlock>advice #117</AdviceIdBlock>
                         </div>
                         <div>
                             <AdviceSlip>"It is easy to sit up and take notice, what's difficult is getting up and taking

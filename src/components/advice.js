@@ -4,14 +4,14 @@ import DisplayAdvice from "./displayAdvice";
 import styled from "styled-components";
 
 const StyledCard = styled.div`
-    width: 500px;
-    height: 300px;
+    width: 550px;
+    height: 320px;
     background-color: #323A49FF;
     position: absolute;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -230px;
-    border-radius: 40px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,15 +23,21 @@ const AdviceIdBlock = styled.div`
     text-transform: uppercase;
     letter-spacing: 2px;
     position: absolute;
-    top: 15px;
-    margin-left: 40%;
+    top: 30px;
+    margin-left: 42%;
 `
 
 const AdviceSlip = styled.div`
     color: #CEE3E9FF;
     font-size: 1.8rem;
     font-weight: bold;
-    margin: 10px;
+    margin: 30px 20px 10px;
+    padding: 15px;
+`
+
+const Divider = styled.div `
+    position: relative;
+    bottom: 30px;
 `
 
 const Button = styled.div`
@@ -44,7 +50,6 @@ const Button = styled.div`
     cursor: pointer;
     box-shadow: rgba(82, 265, 168, 1) 0px 5px 15px;
     }
-    
 `
 
 const Advice = () => {
@@ -78,6 +83,7 @@ const Advice = () => {
                         </div>
                     </div>
             }
+            <Divider>
             <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
                     <path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/>
@@ -87,6 +93,7 @@ const Advice = () => {
                     </g>
                 </g>
             </svg>
+            </Divider>
             <Button>
                 <div>
                 <svg onClick={() => {

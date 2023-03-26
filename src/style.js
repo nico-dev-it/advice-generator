@@ -90,3 +90,11 @@ export const Tech = styled.div`
       gap: 10px;
       margin-top: 20vh;
     `
+
+export const Contact = styled.div`
+    color: #CEE3E9FF;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 -70px;
+`
+

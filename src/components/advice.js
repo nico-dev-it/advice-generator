@@ -14,8 +14,10 @@ const StyledCard = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    @media (max-width: 560px) {
+    @media (max-width: 670px) {
     width: 370px;
+    height: 350px;
+    margin-left: 2em;
   }
     `
 const AdviceIdBlock = styled.div`
@@ -26,6 +28,9 @@ const AdviceIdBlock = styled.div`
     position: absolute;
     top: 30px;
     width: 550px;
+    @media (max-width: 670px) {
+    width: 370px;
+  }
 `
 
 const AdviceSlip = styled.div`

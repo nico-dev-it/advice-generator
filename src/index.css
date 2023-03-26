@@ -6,3 +6,10 @@ body {
   justify-content: center;
   background-color: #1F2632FF;
 }
+
+@media screen and (max-width:670px){
+  #root {
+    width: 100vw;
+  }
+
+}

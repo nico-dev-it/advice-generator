@@ -7,15 +7,16 @@ const StyledCard = styled.div`
     width: 550px;
     height: 320px;
     background-color: #323A49FF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -230px;
+    position: relative;
+    top: 20%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
+    @media (max-width: 560px) {
+    width: 370px;
+  }
     `
 const AdviceIdBlock = styled.div`
     color: #52FFA8FF;

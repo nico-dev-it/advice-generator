@@ -78,5 +78,15 @@ export const Link = styled.a`
 & > a {
     text-decoration: none;
     color: #52FFA8FF;
+    letter-spacing: 3px;
     }
 `
+
+export const Tech = styled.div`
+      font-size: 20px;
+      color: #CEE3E9FF;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20vh;
+    `

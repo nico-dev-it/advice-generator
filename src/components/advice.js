@@ -48,7 +48,7 @@ const Button = styled.div`
     background-color: #52FFA8FF;
     &:hover {
     cursor: pointer;
-    box-shadow: rgba(82, 265, 168, 1) 0px 5px 15px;
+    box-shadow: rgba(82, 265, 168, 1) 0px 5px 30px;
     }
 `
 

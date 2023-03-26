@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nico-dev-it/advice-generator/static/css/main.86d64e70.css",
+    "main.js": "/nico-dev-it/advice-generator/static/js/main.66004462.js",
+    "static/js/787.028157ea.chunk.js": "/nico-dev-it/advice-generator/static/js/787.028157ea.chunk.js",
+    "index.html": "/nico-dev-it/advice-generator/index.html",
+    "main.86d64e70.css.map": "/nico-dev-it/advice-generator/static/css/main.86d64e70.css.map",
+    "main.66004462.js.map": "/nico-dev-it/advice-generator/static/js/main.66004462.js.map",
+    "787.028157ea.chunk.js.map": "/nico-dev-it/advice-generator/static/js/787.028157ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86d64e70.css",
+    "static/js/main.66004462.js"
+  ]
+}

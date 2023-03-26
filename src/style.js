@@ -16,7 +16,8 @@ export const StyledCard = styled.div`
     height: 350px;
     margin: inherit;
   }
-    `
+`
+
 export const AdviceIdBlock = styled.div`
     color: #52FFA8FF;
     font-weight: bold;
@@ -54,6 +55,7 @@ export const DividerMobile = styled.div`
     top: -20px;
     }
 `
+
 export const Button = styled.div`
     position: absolute;
     bottom: -35px;
@@ -66,6 +68,7 @@ export const Button = styled.div`
     transition: 0.5s;
     }
 `
+
 export const FooterContainer = styled.div`
     color: #CEE3E9FF;
     margin-top: 50px;
@@ -90,3 +93,11 @@ export const Tech = styled.div`
       gap: 10px;
       margin-top: 20vh;
     `
+
+export const Contact = styled.div`
+    color: #CEE3E9FF;
+    display: flex;
+    flex-direction: column;
+    margin: 15vh 0 -15vh;
+`
+

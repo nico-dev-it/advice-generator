@@ -1,4 +1,4 @@
-import {AdviceSlip, AdviceIdBlock} from "../style";
+import {AdviceIdBlock, AdviceSlip} from "../style";
 
 const DisplayAdvice = (props) => {
 

@@ -14,6 +14,7 @@ const StyledCard = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: rgb(206 227 233) 2px 0px 5px 2px;
     @media (max-width: 670px) {
     width: 370px;
     height: 350px;
@@ -65,6 +66,7 @@ const Button = styled.div`
     &:hover {
     cursor: pointer;
     box-shadow: rgba(82, 265, 168, 1) 0px 5px 30px;
+    transition: 0.5s;
     }
 `
 

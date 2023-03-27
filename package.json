@@ -1,7 +1,7 @@
 {
   "name": "advice-generator",
   "version": "0.1.0",
-  "homepage": "https://github.com/nico-dev-it/advice-generator",
+  "homepage": "https://nico-dev-it.github.io/advice-generator",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
